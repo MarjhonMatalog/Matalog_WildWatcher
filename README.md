@@ -7,8 +7,7 @@ I.	PROJECT OVERVIEW
 
    On the other hand the system Wildwatcher allows users to view, manage, and delete their sightings the animals 
    that they've seen. This also includes an account management, which enables users to create and delete their
-   accounts if necessary. Therefore the system Wildwatcher will serve as a valuable tool for analyzing and studying
-   wildlife behaviors.
+   accounts if necessary. Therefore the system as a valuable tool for analyzing and studying wildlife behaviors.
 
            Included Features: 
 o	Register and Login System.
@@ -41,7 +40,11 @@ to login or record an animal sighting. Wherein we can view the data stored in a 
 
 By using Tkinter it can present a structure of the interface clearly like the data. Tkinter provides built in widgets like
 the buttons, scrollbars, entry boxes, which can save the user the time and effort when putting the data needed in a sighting. 
-Therefore the use of Tkinter makes the system more interactive.
+Therefore makes the system more interactive.
+
+   •	Partial Function from functools, it allows to bind certain function in the system. We can this in action in delete_acc.
+   The used of partial is to bind the user to the ask_yes_no function without accidentally calling it. There the button will only work 
+   if pressed. 
 
 Sqlite3
 
