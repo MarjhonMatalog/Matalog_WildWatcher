@@ -60,9 +60,9 @@ SDG 15: LIFE ON LAND
 The system falls under SDG 15 because it’s a wildlife
 monitoring system that enables the user to monitor the animal's behavior overtime. 
 It will help people to raise awareness about the behavior of a animal, 
-proving wildlife researcher and rangers a valuable data. While the data that’s been collected 
-will provide users information that they needed to know the patterns and behavior of an animal. 
-Therefore the system is a simple way that will help anyone in volunteering in wildlife tracking.
+proving wildlife researcher and rangers a valuable data. Therefore the data that’s been collected 
+will provide users information that they needed to know about the patterns and behavior of an animal. 
+So to sum things up the system is a simple way that will help anyone in volunteering in wildlife tracking.
 
 IV.	PROGRAM/SYSTEM INSTRUCTIONS
 =
