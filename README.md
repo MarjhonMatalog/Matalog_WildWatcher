@@ -94,6 +94,12 @@ DELETING AN ACCOUNT/ACCOUNT MANAGEMENT:
 
 DATA MANAGEMENT:
 
-•	Display/Hide Data: Users can toggle if they want to see all of the stored animal sighting.           
+•	Display/Hide Data: Users can toggle if they want to see all of the stored animal sighting.   
+
+
+IF CODE NOT WORKING MAKE THIS FOLLOWING A COMMENT
+=
+logo = PhotoImage(file="logoo/ikon.png")
+window.iconphoto(True,logo)
 
 
