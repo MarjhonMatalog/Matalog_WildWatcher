@@ -58,7 +58,10 @@ def create_database():
         
         connection.commit()
         connection.close()
-        
+def create_database_1():
+    if not os.path.exists("users_data.db"):
+        connection = sqlite3.connect("users_data.db")
+        cursor = connection.cursor()        
         #Create Animal_Sigthings Table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS animal_sightings (
@@ -483,6 +486,7 @@ def new_dashboard(user):
     delete_acc = Button(text="Delete Account?",font=("Arial",12),bd=0, underline=True,fg="blue",bg="#edcaac",command=partial(ask_yes_no,user))
     delete_acc.pack(side="top")
     delete_acc.place(x=820,y=345)
+    
     #DISPLAY,HIDE & DELETE DATA
     display_button = Button(text="Show Table", font=("Arial", 12),bg="#d2a057", command=display_data)
     display_button.pack(side="top")
