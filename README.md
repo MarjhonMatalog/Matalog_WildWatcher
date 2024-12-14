@@ -99,7 +99,8 @@ DATA MANAGEMENT:
 
 IF CODE NOT WORKING MAKE THIS FOLLOWING A COMMENT
 =
-logo = PhotoImage(file="logoo/ikon.png")
-window.iconphoto(True,logo)
+LINE 15 logo = PhotoImage(file="logoo/ikon.png")
+
+LINE 16 window.iconphoto(True,logo)
 
 
