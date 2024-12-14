@@ -54,14 +54,7 @@ def create_database():
                 user TEXT,
                 password TEXT
             )
-        """)
-        
-        connection.commit()
-        connection.close()
-def create_database_1():
-    if not os.path.exists("users_data.db"):
-        connection = sqlite3.connect("users_data.db")
-        cursor = connection.cursor()        
+        """)      
         #Create Animal_Sigthings Table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS animal_sightings (
